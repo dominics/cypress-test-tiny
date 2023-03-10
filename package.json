@@ -5,6 +5,7 @@
   "scripts": {
     "cypress:run": "cypress run",
     "cypress:open": "cypress open",
+    "cypress:debug": "CYPRESS_INTERNAL_MEMORY_SAVE_STATS=1 DEBUG='cypress*memory' cypress open --e2e --browser chrome",
     "cypress:verify": "cypress verify",
     "cypress:version": "cypress version",
     "cypress:info": "cypress info",

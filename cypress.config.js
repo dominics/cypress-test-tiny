@@ -1,5 +1,7 @@
 module.exports = {
   e2e: {
-    setupNodeEvents(on, config) {},
+    experimentalMemoryManagement: true,
+    testIsolation: true,
   },
+  numTestsKeptInMemory: 1,
 }
